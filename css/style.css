@@ -12,7 +12,7 @@ body{
 main{
     width: 100%;
     max-width: 1200px;
-    margin: 3em auto;
+    margin: 0.5em auto;
 }
 /* Gestione del blocco del prodotto */
 .blocco{
@@ -28,6 +28,7 @@ main{
     
     margin-bottom: 0.5%;
     position: relative;
+    cursor: pointer;
 }
 img{
     max-width: 100%;
@@ -96,3 +97,19 @@ img{
     font-size: 3em;
 }
 
+/* header  */
+header{
+    height: 5%;
+    padding: 2em 0;
+    text-align: center;
+
+}
+header span, header img{
+    vertical-align: middle;
+    font-size: 3em;
+    /* font-weight: bold; senza bold assomiglia di più a zalando */
+    color: black;
+}
+header a{
+    text-decoration: none;
+}
