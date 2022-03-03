@@ -90,3 +90,9 @@ img{
     text-align: center;
     line-height: 1.5em;
 }
+/* cuore che cambia colore alla pressione */
+.imaggini:active .cuore{
+    color: coral;
+    font-size: 3em;
+}
+
