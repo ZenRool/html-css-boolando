@@ -25,7 +25,19 @@ main{
 }
 img{
     max-width: 100%;
+    
+}
+.img{
+    
     margin-bottom: 0.5%;
+    position: relative;
+}
+.none{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+
 }
 
 /* Scritte sotto la foto  */
@@ -41,4 +53,8 @@ img{
 }
 .prezzo span:nth-child(2){
     text-decoration: line-through;
+}
+/* HOVER  */
+.img:hover .none{
+    display: block;
 }
