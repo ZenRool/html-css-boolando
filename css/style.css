@@ -78,3 +78,17 @@ img{
     padding: 0.5em 1em;
     color: white;
 }
+/* CUORE */
+.cuore{
+    position: absolute;
+    font-size: 2em;
+    top: 5%;
+    right: 0;
+    /* padding: 0.5em; */
+    width: 1.5em;
+    height: 1.5em;
+    background-color: white;
+    text-align: center;
+    /* vertical-align: middle; */
+    line-height: 1.5em;
+}
