@@ -64,9 +64,10 @@ img{
 /* Banda sotto l'immagine */
 .banda{
     position: absolute;
-    bottom: 5%;
+    bottom: 3vh;
     left: 0;
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
+    font-size: 1.3vh;
 }
 .sconto{
     background-color: magenta;
@@ -83,19 +84,19 @@ img{
 /* CUORE */
 .cuore{
     position: absolute;
-    font-size: 2em;
+    font-size: 3vw;
     top: 5%;
     right: 0;
-    width: 1.5em;
-    height: 1.5em;
+    width: 3vw;
+    height: 3vw;
     background-color: white;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 3vw;
 }
 /* cuore che cambia colore alla pressione */
 .imaggini:active .cuore{
     color: coral;
-    font-size: 3em;
+    font-size: 5vw;
 }
 
 /* header  */
