@@ -23,14 +23,15 @@ main{
     font-size: 0.9em;
 
 }
-img{
-    max-width: 100%;
-    
-}
-.img{
+/* gestione immagini */
+.imaggini{
     
     margin-bottom: 0.5%;
     position: relative;
+}
+img{
+    max-width: 100%;
+    
 }
 .none{
     display: none;
@@ -55,6 +56,25 @@ img{
     text-decoration: line-through;
 }
 /* HOVER  */
-.img:hover .none{
+.imaggini:hover .none{
     display: block;
+}
+/* Banda sotto l'immagine */
+.banda{
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    font-size: 0.8em;
+}
+.sconto{
+    background-color: magenta;
+}
+.sustainability{
+
+    background-color: seagreen;
+}
+.banda div{
+    display: inline;
+    padding: 0.5em 1em;
+    color: white;
 }
